@@ -1,52 +1,87 @@
 import React from "react";
 
 function Main() {
-  const mystyle = {
-    backgroundColor: "Black",
-    padding: "10px",
-    fontFamily: "Arial",
-    lineHeight: "30px"
-  };
   return (
     <div className="container">
-      <div className="row pt-4 ">
-        <div className="col-sm-4">
-          <img
-            src="https://picsum.photos/seed/picsum/600/300"
-            className="img-fluid img-thumbnail"
-            alt="..."
-          />
-        </div>
-        <div className="col-sm-8">
-          <p style={mystyle} className="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </div>
-      <div className="row pt-4">
-        <div className="col-sm-8">
-          <p style={mystyle} className="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div className="col-sm-4">
-          <img
-            src="https://picsum.photos/600/300?grayscale"
-            className="img-fluid img-thumbnail"
-            alt="..."
-          />
+      <div className="row pt-3">
+        <div
+          id="carouselExampleCaptions"
+          className="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <ol className="carousel-indicators">
+            <li
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              className="active"
+            />
+            <li
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+            />
+            <li
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+            />
+          </ol>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
+                src="https://picsum.photos/1200/400?grayscale"
+                className=" img-fluid"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://picsum.photos/id/237/1200/400"
+                className=" img-fluid"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://picsum.photos/id/101/1200/400"
+                className=" img-fluid"
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            className="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="visually-hidden">Previous</span>
+          </a>
+          <a
+            className="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="visually-hidden">Next</span>
+          </a>
         </div>
       </div>
     </div>
