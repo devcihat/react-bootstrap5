@@ -2,86 +2,66 @@ import React from "react";
 
 function Middle() {
   return (
-    <div className="container text-center">
-      <div className="row pt-4">
-        <div className="col-sm-4">
-          <div className="card h-100">
-            <img
-              src="https://picsum.photos/seed/picsum/600/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text text-muted">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+    <section className="container">
+      <hr />
+      <div className="row  pt-3 g-2">
+        <div className="col">
+          <img
+            style={{ maxHeight: "14rem" }}
+            className="w-100 img-thumbnail"
+            src="https://picsum.photos/400"
+            alt=""
+          />
+          <div class="card text-light bg-success text-center mt-2">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
-            </div>
-            <div className="card-footer">
-              <button type="button" className="btn btn-primary btn-sm mx-2">
-                Small button
-              </button>
-              <button type="button" className="btn btn-secondary btn-sm">
-                Small button
-              </button>
             </div>
           </div>
         </div>
-        <div className="col-sm-4">
-          <div className="card h-100">
-            <img
-              src="https://picsum.photos/seed/picsum/600/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text text-muted">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+
+        <div className="col">
+          <img
+            style={{ maxHeight: "14rem" }}
+            className="w-100 img-thumbnail"
+            src="https://picsum.photos/500"
+            alt=""
+          />
+          <div class="card text-light bg-primary text-center mt-2">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
-            </div>
-            <div className="card-footer">
-              <button type="button" className="btn btn-primary btn-sm mx-2">
-                Small button
-              </button>
-              <button type="button" className="btn btn-secondary btn-sm">
-                Small button
-              </button>
             </div>
           </div>
         </div>
-        <div className="col-sm-4">
-          <div className="card h-100">
-            <img
-              src="https://picsum.photos/seed/picsum/600/300"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text text-muted">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+        <div className="col">
+          <img
+            style={{ maxHeight: "14rem" }}
+            className="w-100 img-thumbnail"
+            src="https://picsum.photos/600"
+            alt=""
+          />
+          <div class="card text-light bg-dark text-center mt-2">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
               </p>
-            </div>
-            <div className="card-footer">
-              <button type="button" className="btn btn-primary btn-sm mx-2">
-                Small button
-              </button>
-              <button type="button" className="btn btn-secondary btn-sm">
-                Small button
-              </button>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <hr />
-    </div>
+    </section>
   );
 }
 
