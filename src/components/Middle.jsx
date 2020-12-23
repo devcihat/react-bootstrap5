@@ -3,7 +3,7 @@ import React from "react";
 function Middle() {
   return (
     <div className="container text-center">
-      <div className="row row-cols-1 row-cols-md-3 g-4 pt-5">
+      <div className="row pt-4">
         <div className="col">
           <div className="card h-100">
             <img
