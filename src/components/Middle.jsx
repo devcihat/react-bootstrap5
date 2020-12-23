@@ -4,8 +4,8 @@ function Middle() {
   return (
     <section className="container">
       <hr />
-      <div className="row  pt-3 g-2">
-        <div className="col">
+      <div className="row  pt-3 ">
+        <div className="col-lg-4">
           <img
             style={{ maxHeight: "14rem" }}
             className="w-100 img-thumbnail"
@@ -24,7 +24,7 @@ function Middle() {
           </div>
         </div>
 
-        <div className="col">
+        <div className="col-lg-4">
           <img
             style={{ maxHeight: "14rem" }}
             className="w-100 img-thumbnail"
@@ -42,7 +42,7 @@ function Middle() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col-lg-4">
           <img
             style={{ maxHeight: "14rem" }}
             className="w-100 img-thumbnail"

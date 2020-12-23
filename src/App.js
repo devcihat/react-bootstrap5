@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Middle from "./components/Middle";
 import Footer from "./components/Footer";
+import Mainmiddle from "./components/Mainmiddle";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Main />
       <Middle />
+      <Mainmiddle />
       <Footer />
     </div>
   );
