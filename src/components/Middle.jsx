@@ -4,7 +4,7 @@ function Middle() {
   return (
     <div className="container text-center">
       <div className="row pt-4">
-        <div className="col">
+        <div className="col-sm-4">
           <div className="card h-100">
             <img
               src="https://picsum.photos/seed/picsum/600/300"
@@ -29,7 +29,7 @@ function Middle() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col-sm-4">
           <div className="card h-100">
             <img
               src="https://picsum.photos/seed/picsum/600/300"
@@ -53,7 +53,7 @@ function Middle() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col-sm-4">
           <div className="card h-100">
             <img
               src="https://picsum.photos/seed/picsum/600/300"
